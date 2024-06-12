@@ -70,7 +70,18 @@ position: fixed;
 		
 		.container { padding: 500px 0px; /* This gives our headings a bit of breathing room */ } 
 		
-		
+		.footer {
+		    display: flex;
+    		align-items: center;
+    		    justify-content: center;
+    		    background-color: rgb(248, 207, 157);
+		}
+
+		.footer img {
+			margin: 0 5px;
+			height:25px;
+		}
+
 		.js-background-1 { 
 		
 		height:100%;
@@ -285,14 +296,19 @@ border-width: 0px;
 	<div id="last_date">		
 	<p id="last">Dziekujemy za pomoc! </p>
 	
-	<p style="float:right"> 30.12.2013</p>
+
 	
-	<a href="http://bymario.pl" target="_parent">
-	<img style="height:25px; float:left;border-width: 0px;" src="./grafika/banner/bannerByMarioTrans.gif"/>  
-</a>
+
 </div>
 		
 		</div>
+	<div class="footer">
+		<p class="footer-text">Made in a hurry</p>
 
+			<a href="https://www.linkedin.com/in/lewandowskim/" target="_parent">
+				<img src="./grafika/banner/bannerByMarioTrans.gif"/>
+			</a>
+		<p style="float:right"> 30.12.2013</p>
+	</div>
 	</body>
 </html>
